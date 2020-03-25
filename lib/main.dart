@@ -55,8 +55,8 @@ class _MyAppState extends State<MyApp> {
     );
 
     setState(() {
-      responseText = prettyPrint(response.body.toString());
-
+//      responseText = prettyPrint(response.body.toString());
+    responseText = response.body.toString();
     });
     return response;
 }
